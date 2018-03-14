@@ -1,3 +1,5 @@
 #!/bin/bash
-#.log 
-find /var/ -name "*.log" 2>>/dev/null -exec wc -l {} \;
+#
+#yl2 
+find /var -name \*.log 2> ./error -exec wc -l {} +| sort -rn | cut -f2,3,4 -d"/" | grep "var"  #otsib .log lõppuga faile ja paneb nad kahanevasse järjekorda
+# Skripti lõpp
