@@ -1,0 +1,5 @@
+#!/bin/bash 
+TODAY=$(date) 
+CALENDAR=$(cal)
+echo "Date: $TODAY"
+echo "Cal: $CALENDAR" 
