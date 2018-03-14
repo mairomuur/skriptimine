@@ -1,0 +1,6 @@
+#!/bin/bash
+# Tervitusskript
+
+echo -n "Tere, "  
+echo -n "User"
+echo "!" 
