@@ -1,12 +1,9 @@
-#!/bin/bash
+#! /bin/bash
 #
 # kasutajate nimekiri kujul Perenimi, Eesnimi 
 #
-# skripti algus 
+# skripti algus
 #
-who | cut -f1 -d" " | cut -f2 -d"." > perenimi 
-who | cut -f1 -d" " | cut -f1 -d"." > eesnimi
-paste -d"." perenimi eesnimi > nimed 
-cat nimed | sort | uniq
+awk -F':' '$3>999 {print $1}' /etc/passwd | column -t | grep -v nobody
 #
 # skripti lopp
