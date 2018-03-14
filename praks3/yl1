@@ -1,5 +1,4 @@
 #!/bin/bash 
-TODAY=$(date) 
 CALENDAR=$(cal)
-echo "Date: $TODAY"
+echo Today is `date '+%A %d/%m/%Y	%H:%M:%S'`
 echo "Cal: $CALENDAR" 
