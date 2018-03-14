@@ -1,0 +1,12 @@
+#! /bin/bash
+#
+# muljed teisest tunnist 
+#
+# skripti algus
+#
+echo "mairo müür"
+echo "ISP117"
+echo "Tund pakub huvi, annab uusi teadmisi ja oskusi. Ülesanded oleksid võinud natukene paremini seletatud olla."
+echo "Praegune mulje on hea. Aine vajab informatsiooni otsimist, mõtlemistööd jne." 
+#
+#skripti lopp
