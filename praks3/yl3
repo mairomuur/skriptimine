@@ -1,0 +1,7 @@
+#!/bin/bash 
+#
+# yl3 
+echo -n `hostname` 
+echo -n " at " 
+echo -e `uptime | cut -f1 -d","`
+# Skripti lõpp
