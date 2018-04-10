@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# 1-10 arvu summa - liidan ainult paarisarvud
+summa=0 
+for (( arv=1; arv<11; arv++ ))
+do
+	jaak=$(($arv % 2))
+	if [ $jaak -eq 0 ]; then
+		summa=$(($summa + $arv))
+		echo $summa
+	fi
+done
+echo "Arvude 1-10 (kaasaarvatud) paarisarvude summa on: $summa"
