@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+# Küsin kasutajalt täisarvu, mida ta soovib sisestada
+echo -n "Sisesta suvaline täisarv: "
+read arv
+# Arvutame jäägi 2-ga jagamisel
+rem=$(( $arv % 2 ))
+# If lause algus
+# Kontrollime, kas arv on paaris või paaritu
+if [ $rem -eq 0 ]
+# Väljastame kasutajale, kas arv on paaris voi paaritu
+then
+	echo "$arv on paaris "
+else
+	echo "$arv on paaritu"
+fi
+# Fi-ga paneme if lause kinni
+#skripti lopp
