@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+echo -n "Palun sisestage kuu number: "
+read kuunumber
+# ütlen skriptile, et kui on teatud number, mida peab selle korral väljastama
+case  $kuunumber in
+	"1") echo "On jaanuar";;
+	"2") echo "On veebruar";;
+	"3") echo "On märts";;
+	"4") echo "On aprill";;
+	"5") echo "On mai";;
+	"6") echo "On juuni";;
+	"7") echo "On juuli";;
+	"8") echo "On august";;
+	"9") echo "On september";;
+	"10") echo "On oktoober";;
+	"11") echo "On november";;
+	"12") echo "On detsember";;
+esac
+# skripti lopp
