@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# Küsin kasutajalt ta nime
+echo -n "Tere, sisestage oma nimi: "
+# Ootan sisestust kasutaja poolt
+read eesnimi perenimi
+echo "Tere, $eesnimi $perenimi"
+# skripti lopp
