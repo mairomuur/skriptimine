@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+echo -n "Sisesta ridade arv: "
+read arv
+for ((r=arv; r>1; r--))
+do
+	for ((v=2; v<=$r; v++))
+do
+echo -n "* "
+done
+echo
+done
+# skripti lopp
