@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+# skripti algus
+echo -n "Sisesta aja väärtus: "
+read aeg
+if test $aeg -gt 6 -a $aeg -lt 12
+then
+	echo "Tere hommikust, $USER!"
+elif test $aeg -ge 12 -a $aeg -lt 18
+then
+	echo "Tere päevast, $USER!"
+elif test $aeg -ge 18 -a $aeg -lt 22
+then
+	echo "Tere õhtust, $USER!"
+elif [ $aeg -ge 22 -a $aeg -lt 24 ] || [ $aeg -gt 0 -a $aeg -le 6 ]
+then
+	echo "Head ööd, $USER!"
+fi
+#
+# skripti lõpp
